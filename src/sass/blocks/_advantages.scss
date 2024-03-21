@@ -1,0 +1,38 @@
+.advantages {
+    min-height: 400px;
+    background-color:#F6F6F6;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+		align-items: center;
+        width: 200px;
+        padding: 20px 30px 20px 30px;
+        
+
+    }
+    &__icon {
+        text-align: center;
+        display: flex;
+		justify-content: center;
+		 
+        &__title {
+            text-align: center;
+        }
+    }
+    &__descr {
+        text-align: center;
+        span {
+            color: red;
+        }
+    }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0 auto;
+}
+       
+}

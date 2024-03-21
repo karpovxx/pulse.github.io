@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+.row {
+    width: 90%;
+}
+}
+@media (max-width: 991px)  {
+.row {
+    width: 70%;
+}
+.advantages {
+    &__icon {
+        img {
+            width: 80%;
+        }
+        &__title {
+            font-size: 16px;
+        }
+    }
+    &__descr {
+        font-size: 14px;
+    }
+}
+
+}
+ 
+@media (max-width: 767px) {
+.advantages {
+    &__block {
+        padding: 20px 20px 20px 20px;
+    }
+     
+}
+.row {
+    width: 70%;
+    justify-content: space-evenly;
+    
+}
+}
+
+
+@media (max-width: 575px) {
+ 
+.row {
+    width: 70%;
+}
+ 
+}
+
+ 
+@media (max-width: 300px) {
+
+}

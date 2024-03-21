@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 991px)  {
+.button {
+    width: 150px;
+    height: 30px;
+    font-size: 11px;
+    
+    &_main {
+        margin-right: 30px;
+        width: 250px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+}
+ 
+@media (max-width: 767px) {
+.button {
+    width: 100%;
+    height: 20px;
+    font-size: 7px;
+    &_main {
+        width: 30%;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 10px;
+
+
+    }
+}
+ 
+
+}
+@media (max-width: 575px) {
+.button {
+    &_main {
+        width: 50%;
+        height: 35px;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 9px;
+    }
+}
+
+}
+@media (max-width: 300px) {
+
+}
+
