@@ -1,0 +1,42 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    } 
+    .slick-dots {
+        
+        list-style: none;
+        button {
+            border: none;
+            border-radius: 100%;
+            background-color: Gainsboro;
+            width: 2px;
+            height: 12px;
+        }
+        .slick-active {
+            button {
+                background-color: darkgray;
+            }
+        }
+         
+    }    
+}
+.slick-prev, .slick-next {
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    background-color: white;
+    position: absolute;
+    img {
+        width: 31px;
+        height: 50px;
+    }
+}
+.slick-next {
+    left: auto;
+    right: -66px;
+}
+ 

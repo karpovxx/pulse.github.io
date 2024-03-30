@@ -4,11 +4,27 @@
 @import '../blocks/header.scss';
 @import '../blocks/buttons.scss';
 @import '../blocks/advantages.scss';
+@import '../blocks/consultation.scss';
+@import '../blocks/carousel.scss';
+@import '../blocks/catalog.scss';
+
+@import '../blocks/title.scss';
+@import '../blocks/forms.scss';
 
 @import '../media/header-media.scss';
 @import '../media/button-media.scss';
 @import '../media/promo-media.scss';
 @import '../media/advantages-media.scss';
+@import '../media/consultation-media.scss';
+@import '../media/carousel-media.scss';
+@import '../media/catalog-media.scss';
+
+
+@import '../media/forms-media.scss';
+@import '../media/title-media.scss';
+ 
+
+
  
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;

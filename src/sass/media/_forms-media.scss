@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 991px)  {
+ 
+}
+ 
+@media (max-width: 767px) {
+.feet-form {
+    margin: 0 auto;   
+    margin-top: 36px; 
+    align-items: center;
+    input {
+            height: 40px;
+            width: 80%;
+            font-size: 11px;
+            
+        }
+} 
+
+}
+@media (max-width: 575px) {
+    .feet-form {
+        align-items: center;
+        input {
+            height: 40px;
+            width: 70%;
+            font-size: 11px;
+            
+        }
+    }
+ 
+
+}
+@media (max-width: 300px) {
+
+}

@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+ 
+
+}
+@media (max-width: 991px)  {
+.title {
+
+    &__left {
+        font-size: 30px;
+    }
+}
+}
+ 
+@media (max-width: 767px) {
+.title {
+    
+    &__left {
+        font-size: 28px;
+       text-align: center;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+}
+@media (max-width: 575px) {
+.title {
+    
+    &__left {
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}    
+ 
+
+}
+@media (max-width: 300px) {
+
+}
