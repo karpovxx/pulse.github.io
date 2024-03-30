@@ -4,6 +4,7 @@
     .slick-track {
         img {
             width: 80%;
+            margin: 0 auto;
         }
     }
 }
@@ -13,8 +14,12 @@
     width: 100%;
     .slick-track {
         img {
-            width: 80%;
+            width: 70%;
+            margin: 0 auto;
         }
+    }
+    &__inner {
+        width: 100%;
     }
 } 
 }
@@ -22,10 +27,16 @@
 @media (max-width: 767px) {
  .carousel {
     width: 100%;
+
     .slick-track {
+         
         img {
             width: 80%;
+            margin: 0 auto;
         }
+    }
+    &__inner {
+        width: 100%;
     }
 }
 }
@@ -35,7 +46,11 @@
     .slick-track {
         img {
             width: 80%;
+            margin: 0 auto;
         }
+    }
+    &__inner {
+        width: 100%;
     }
 }
 }

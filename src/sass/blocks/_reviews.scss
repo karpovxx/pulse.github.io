@@ -1,0 +1,40 @@
+.reviews {
+    &__wrapper {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        display: flex;
+    &__photo {
+        width: 200px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    }
+    &__block {
+        display: inline-block;
+        &__info {
+            margin-left: 60px;
+        }
+    }
+    &__name {
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    &__marathons {
+        margin-top: 0;
+        line-height: 22px;
+        color: gray;
+        font-size: 14px;
+        font-weight: 500;  
+    }
+    &__comment {
+
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25.44px;
+        margin-right: 30px;
+    }
+    
+    
+}

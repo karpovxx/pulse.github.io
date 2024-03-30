@@ -3,11 +3,14 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     &__left {
         color: #fff;
         font-size: 36px;
         text-align: left;
         text-transform: uppercase;
+    }
+    &__reviews {
+        margin-bottom: 60px;
     }
 }

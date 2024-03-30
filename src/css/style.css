@@ -448,19 +448,59 @@
   color: #c70101;
 }
 
+.reviews__wrapper {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reviews__wrapper__photo {
+  width: 200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.reviews__block {
+  display: inline-block;
+}
+.reviews__block__info {
+  margin-left: 60px;
+}
+.reviews__name {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.reviews__marathons {
+  margin-top: 0;
+  line-height: 22px;
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+.reviews__comment {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.44px;
+  margin-right: 30px;
+}
+
 .title {
   color: black;
   font-size: 30px;
   font-weight: 700;
   text-align: center;
-  -webkit-text-decoration: uppercase;
-          text-decoration: uppercase;
+  text-transform: uppercase;
 }
 .title__left {
   color: #fff;
   font-size: 36px;
   text-align: left;
   text-transform: uppercase;
+}
+.title__reviews {
+  margin-bottom: 60px;
 }
 
 .feet-form {
@@ -585,6 +625,11 @@
     width: 83%;
     height: 40px;
     font-size: 12px;
+  }
+  .button_mini {
+    width: 40%;
+    height: 30px;
+    font-size: 11px;
   }
 }
 @media (max-width: 1200px) {
@@ -784,6 +829,7 @@
   }
   .carousel .slick-track img {
     width: 80%;
+    margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
@@ -791,7 +837,11 @@
     width: 100%;
   }
   .carousel .slick-track img {
-    width: 80%;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .carousel__inner {
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -800,6 +850,10 @@
   }
   .carousel .slick-track img {
     width: 80%;
+    margin: 0 auto;
+  }
+  .carousel__inner {
+    width: 100%;
   }
 }
 @media (max-width: 575px) {
@@ -808,6 +862,127 @@
   }
   .carousel .slick-track img {
     width: 80%;
+    margin: 0 auto;
+  }
+  .carousel__inner {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .catalog__content {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+@media (max-width: 767px) {
+  .title {
+    font-size: 22px;
+  }
+  .catalog__tags {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .catalog__tab {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+  }
+  .catalog__content {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+@media (max-width: 575px) {
+  .catalog__tags {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .catalog__tab {
+    height: 40px;
+    line-height: 15px;
+    font-size: 10px;
+    margin: 0 auto;
+    margin: 0 2px 0 2px;
+    line-height: none;
+  }
+  .catalog__content {
+    margin-top: 20px;
+  }
+  .catalog div {
+    padding-top: 12px;
+  }
+  .catalog .catalog-item__subtitle {
+    font-size: 16px;
+  }
+  .catalog .catalog-item__descr {
+    font-size: 14px;
+  }
+  .catalog .catalog-item__old-price {
+    font-size: 14px;
+  }
+  .catalog .catalog-item__price {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .reviews__block {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .reviews__block img {
+    width: 140px;
+  }
+  .reviews__name {
+    font-size: 16px;
+  }
+  .reviews__marathons {
+    font-size: 12px;
+  }
+  .reviews__comment {
+    font-size: 14px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .reviews__wrapper {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reviews__block {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .reviews__name {
+    text-align: center;
+  }
+  .reviews__marathons {
+    text-align: center;
+  }
+  .reviews__comment {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 20px 50px 20px;
   }
 }
 @media (max-width: 767px) {
