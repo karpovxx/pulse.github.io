@@ -1,8 +1,9 @@
-.feet-form {
-    margin-top: 36px;
+.feet-form { 
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin: 0 auto;
+    margin-top: 36px;
     input {
         height: 50px;
         border-radius: 5px;
@@ -16,5 +17,8 @@
         &:nth-child(3) {
             margin-bottom: 20px;
         }
+    }
+    &_mt25 {
+        margin-top: 25px;
     }
 }
