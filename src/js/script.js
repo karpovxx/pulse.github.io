@@ -8,7 +8,7 @@ $(document).ready(function(){
 			'<button type="button" class="slick-next"><img src="img/slider/right_solid.png"></button></button>',
 		responsive: [
 			{
-			breakpoint: 992,
+			breakpoint: 991,
 			settings: {
 				 
 				arrows: false,
