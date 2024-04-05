@@ -1191,6 +1191,48 @@
     height: 15px;
   }
 }
+@media (max-width: 991px) {
+  .modal {
+    min-height: 350px;
+    width: 320px;
+  }
+  .modal__subtitle {
+    font-size: 18px;
+  }
+  .modal__descr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .modal {
+    min-height: 300px;
+    width: 270px;
+  }
+  .modal__close {
+    right: -30px;
+  }
+  .modal__subtitle {
+    font-size: 16px;
+  }
+  .modal__descr {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .modal {
+    min-height: 240px;
+    width: 210px;
+  }
+  .modal__close {
+    right: -25px;
+  }
+  .modal__subtitle {
+    font-size: 14px;
+  }
+  .modal__descr {
+    font-size: 11px;
+  }
+}
 @media (max-width: 767px) {
   .feet-form {
     margin: 0 auto;
