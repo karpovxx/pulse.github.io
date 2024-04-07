@@ -1,6 +1,5 @@
 @media (max-width: 1200px) {
-
-
+ 
 }
 @media (max-width: 991px)  {
  
@@ -11,14 +10,19 @@
     margin: 0 auto;
     margin-top: 36px; 
     align-items: center;
+    width: 80%;
   
     input {
-            height: 40px;
-            width: 80%;
-            font-size: 11px;
-            
+        height: 40px;
+        width: 80%;
+        font-size: 11px; 
         }
-} 
+        &_mt25 {
+            width: 100%;
+        }
+     
+}   
+     
 
 }
 @media (max-width: 575px) {
@@ -28,9 +32,13 @@
             height: 40px;
             width: 70%;
             font-size: 11px;
-            
+
+        }
+        &_mt25 {
+            width: 100%;
         }
     }
+     
  
 
 }

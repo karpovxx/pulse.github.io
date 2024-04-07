@@ -138,7 +138,6 @@
   font-size: 16px;
 }
 .button_mini {
-  width: 131px;
   height: 40px;
   font-size: 14px;
 }
@@ -206,6 +205,15 @@
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
+}
+.consultation .error {
+  border: 1px solid red;
+}
+.consultation label.error {
+  color: white;
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .carousel {
@@ -601,6 +609,14 @@
   min-height: 100px;
   padding-top: 70px;
 }
+.modal .error {
+  border: 1px solid red;
+}
+.modal label.error {
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
 
 #consultation, #order, #thanks {
   display: none;
@@ -631,8 +647,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
-  margin: 0 auto;
+  width: 500px;
   margin-top: 36px;
 }
 .feet-form input {
@@ -650,6 +665,7 @@
 }
 .feet-form_mt25 {
   margin-top: 25px;
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -698,6 +714,13 @@
     font-size: 9px;
   }
 }
+@media (max-width: 1200px) {
+  .button_mini {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+}
 @media (max-width: 991px) {
   .button {
     width: 150px;
@@ -716,6 +739,11 @@
     color: #fff;
     font-size: 16px;
   }
+  .button__submit_m {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
 }
 @media (max-width: 767px) {
   .button {
@@ -731,10 +759,15 @@
     font-size: 10px;
   }
   .button__submit {
-    width: 93%;
+    width: 89%;
     height: 55px;
     color: #fff;
     font-size: 14px;
+  }
+  .button__submit_m {
+    width: 95%;
+    height: 40px;
+    font-size: 11px;
   }
 }
 @media (max-width: 575px) {
@@ -748,11 +781,11 @@
   .button__submit {
     width: 83%;
     height: 40px;
-    font-size: 12px;
+    font-size: 11px;
   }
-  .button_mini {
-    width: 40%;
-    height: 30px;
+  .button__submit_m {
+    width: 90%;
+    height: 40px;
     font-size: 11px;
   }
 }
@@ -1205,8 +1238,8 @@
 }
 @media (max-width: 767px) {
   .modal {
-    min-height: 300px;
     width: 270px;
+    padding: 30px 32px 30px 32px;
   }
   .modal__close {
     right: -30px;
@@ -1220,8 +1253,8 @@
 }
 @media (max-width: 575px) {
   .modal {
-    min-height: 240px;
     width: 210px;
+    padding: 20px 22px 20px 22px;
   }
   .modal__close {
     right: -25px;
@@ -1240,11 +1273,15 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 80%;
   }
   .feet-form input {
     height: 40px;
     width: 80%;
     font-size: 11px;
+  }
+  .feet-form_mt25 {
+    width: 100%;
   }
 }
 @media (max-width: 575px) {
@@ -1257,6 +1294,9 @@
     height: 40px;
     width: 70%;
     font-size: 11px;
+  }
+  .feet-form_mt25 {
+    width: 100%;
   }
 }
 @media (max-width: 991px) {

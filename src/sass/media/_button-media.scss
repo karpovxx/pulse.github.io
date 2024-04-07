@@ -1,5 +1,12 @@
 @media (max-width: 1200px) {
-
+.button {
+ 
+    &_mini {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+}
 }
 @media (max-width: 991px)  {
 .button {
@@ -18,9 +25,13 @@
     height: 55px;
     color: #fff;
     font-size: 16px;
-    
-
+     &_m {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
     }
+    }
+   
 }
 }
  
@@ -37,11 +48,18 @@
         font-size: 10px;
     }
     &__submit {
-    width: 93%;
+    width: 89%;
     height: 55px;
     color: #fff;
     font-size: 14px;
+    &_m {
+        width: 95%;
+        height: 40px;
+        font-size: 11px;
     }
+     
+    }
+    
 }
  
 
@@ -58,13 +76,14 @@
     &__submit {
     width: 83%;
     height: 40px;
-    font-size: 12px;
-    }
-    &_mini {
-        width: 40%;
-        height: 30px;
+    font-size: 11px;
+    &_m {
+        width: 90%;
+        height: 40px;
         font-size: 11px;
     }
+    }
+   
 }
 
 }

@@ -1,8 +1,7 @@
 .feet-form { 
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin: 0 auto;
+    width: 500px;
     margin-top: 36px;
     input {
         height: 50px;
@@ -20,5 +19,6 @@
     }
     &_mt25 {
         margin-top: 25px;
+        width: 100%;
     }
 }

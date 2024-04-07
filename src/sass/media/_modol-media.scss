@@ -18,9 +18,9 @@
  
 @media (max-width: 767px) {
 .modal {
-    min-height: 300px;
+     
     width: 270px;
-    
+    padding: 30px 32px 30px 32px;
     &__close {
         right: -30px;
     } 
@@ -36,9 +36,9 @@
 }
 @media (max-width: 575px) {
 .modal {
-    min-height: 240px;
+   
     width: 210px;
-    
+    padding: 20px 22px 20px 22px;
     &__close {
         right: -25px;
     } 
