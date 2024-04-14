@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up"  class="promo">
       
         <div class="container">
             <header class="header">
@@ -110,7 +110,7 @@
                 </div>
                 <form id="consultation-form" class="feet-form" action="#">
                     <input name="name" required placeholder="Ваше имя"  type="text">
-                    <input name="phone" required placeholder="Ваш телефон"  type="number">
+                    <input name="phone" required placeholder="Ваш телефон">
                     <input name="email" required placeholder="Ваше Е-mail"  type="email">
                     
                     <button class="button button__submit">Заказать консультацию</button>
@@ -461,7 +461,7 @@
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form action="#" class="feet-form feet-form_mt25">
                 <input name="name" type="text" placeholder="Ваше имя">
-                <input name="phone" type="number" placeholder="Ваш телефон">
+                <input name="phone" placeholder="Ваш телефон">
                 <input name="email" type="email"placeholder="E-mail">
                 <button class="button button__submit button__submit_m">Заказать консультацию</button>
             </form>
@@ -472,7 +472,7 @@
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form action="#" class="feet-form feet-form_mt25">
                 <input name="name" type="text" required placeholder="Ваше имя">
-                <input name="phone" type="number" required placeholder="Ваш телефон">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" type="email" required placeholder="E-mail">
                 <button class="button button__submit button__submit_m">Купить</button>
             </form>
@@ -483,12 +483,17 @@
             <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
         </div>
     </div>
+    <a href="#up" class="pageup">
+        <img src="icons/upordown/arrow-up-solid.svg" alt="up">
+    </a>
+    
  
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script> 
     
  
