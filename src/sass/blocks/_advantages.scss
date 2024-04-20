@@ -33,6 +33,17 @@
     padding-top: 75px;
     padding-bottom: 75px;
     margin: 0 auto;
-}
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
        
 }
